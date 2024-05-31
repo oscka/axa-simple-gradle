@@ -12,17 +12,19 @@ java {
 }
 
 repositories {
-    repositories {
-        //mavenCentral() (AS-IS)
-        maven{
-            url "http://localhost:8081/repository/gradle-test/"
-            allowInsecureProtocol true
-            credentials {
-                username "admin"
-                password "dlawotjd1"
-            }
-        }
-    }
+//        (AS-IS)
+    mavenCentral()
+//        for nexus
+//    repositories {
+//        maven{
+//            url "http://localhost:8081/repository/gradle-test/"
+//            allowInsecureProtocol true
+//            credentials {
+//                username "admin"
+//                password "dlawotjd1"
+//            }
+//        }
+//    }
 
 }
 
